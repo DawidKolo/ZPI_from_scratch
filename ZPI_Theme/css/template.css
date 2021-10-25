@@ -8,4 +8,8 @@
     height: 30px;
 }
 
-.main-menu ul li{ display: inline-block; }
+/* Menus */
+.main-menu ul li, .footer-menu ul li{ 
+    display: inline-block; 
+}
+
