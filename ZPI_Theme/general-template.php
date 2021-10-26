@@ -6,44 +6,44 @@
 ?>
 
 <?php get_header(); ?>
-    <div class="content-area">
-        <main>
-            
-            
-            <section class="middle-area">
+<div class="content-area">
+    <main>
+
+
+        <section class="middle-area">
             <div class="container">
-                    
-                        
-                        <div class="general-template">
-                        <?php 
+
+
+                <div class="general-template">
+                    <?php 
                             if ( have_posts() ) :
 
                          /* Start the Loop */ 
                                 while ( have_posts() ) : the_post(); 
                         ?>
 
-                        <article>
-                            <h2><?php the_title(); ?></h2>
-                            
-                            <p><?php the_content(); ?></p>
-                            
-                        </article>
+                    <article>
+                        <h2><?php the_title(); ?></h2>
 
-                        <p>This page template is the same on all selected pages</p>
-  
-                        <?php endwhile; ?>
+                        <p><?php the_content(); ?></p>
 
-                        <?php else : ?>
+                    </article>
+
+                    <p>This page template is the same on all selected pages</p>
+
+                    <?php endwhile; ?>
+
+                    <?php else : ?>
 
 
 
-                        <?php endif; ?>
-                        </div>
-                    
+                    <?php endif; ?>
+                </div>
+
             </div>
-                
-            </section>    
-            
-        </main>
-    </div>    
-<?php get_footer(); ?>   
+
+        </section>
+
+    </main>
+</div>
+<?php get_footer(); ?>

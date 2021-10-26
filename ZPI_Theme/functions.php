@@ -1,4 +1,3 @@
-
 <?php
 
 function load_scripts(){
@@ -8,10 +7,24 @@ function load_scripts(){
 }
 add_action('wp_enqueue_scripts', 'load_scripts');
 
-register_nav_menus(
-    array(
-       'my_main_menu' => 'Main Menu',
-       'footer_menu' => 'Footer' 
-    )
+
+// Main config function
+function dkwp_config(){
+
+    // Registering the menus
+    register_nav_menus(
+        array(
+            'my_main_menu' => 'Main Menu',
+            'footer_menu' => 'Footer'
+        )
+    );
+
+
+$args = array(
+    'heigth' => 225,
+    'width' => 1920
 );
-?>
+add_theme_support('custom-header', $args);
+}
+add_action( 'after_setup_theme', 'dkwp_config', 0 );
+
