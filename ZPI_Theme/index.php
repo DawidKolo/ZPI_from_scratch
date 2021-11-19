@@ -23,21 +23,15 @@
 
                          /* Start the Loop */ 
                                 while ( have_posts() ) : the_post(); 
-                        ?>
+                        
 
-                        <article>
-                            <h2><?php the_title(); ?></h2>
-                            <?php the_post_thumbnail( array( 270, 270 ) ); ?>
-
-                            <p><?php the_content(); ?></p>
-
-                        </article>
+                        get_template_part('template-parts/content');
 
 
 
-                        <?php endwhile; ?>
+                        endwhile; 
 
-                        <?php else : ?>
+                        else : ?>
 
 
 
