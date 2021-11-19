@@ -26,6 +26,7 @@ $args = array(
     'heigth' => 230
 );
 add_theme_support('custom-header', $args);
+add_theme_support('post-thumbnails');
 }
 add_action( 'after_setup_theme', 'dkwp_config', 0 );
 

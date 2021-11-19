@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<img src="<?php header_image(); ?>" heigth="<?php echo get_custom_header()->heigth; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+<img class="img-fluid" src="<?php header_image(); ?>" heigth="<?php echo get_custom_header()->heigth; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
 <div class="content-area">
     <main>
@@ -27,6 +27,7 @@
 
                         <article>
                             <h2><?php the_title(); ?></h2>
+                            <?php the_post_thumbnail( array( 270, 270 ) ); ?>
 
                             <p><?php the_content(); ?></p>
 
