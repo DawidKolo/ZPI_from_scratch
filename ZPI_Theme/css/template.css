@@ -20,4 +20,8 @@
 
 .blog article{
     display: inline-block;
+    
+}
+.blog h2{
+    color: red;
 }
