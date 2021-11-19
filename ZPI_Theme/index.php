@@ -16,7 +16,7 @@
         <section class="middle-area">
             <div class="container">
                 <div class="row">
-                    <aside class="sidebar col-md-3">sidebar</aside>
+                    <aside class="sidebar col-md-3"><?php get_sidebar('blog'); ?></aside>
                     <div class="news col-md-9">
                         <?php 
                             if ( have_posts() ) :

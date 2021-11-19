@@ -14,7 +14,7 @@
         <section class="middle-area">
             <div class="container">
                 <div class="row">
-                    <aside class="sidebar col-md-3">sidebar</aside>
+                    <aside class="sidebar col-md-3"><?php get_sidebar('home'); ?></aside>
                     <div class="news col-md-9">news
                         <p>test</p>
                     </div>
