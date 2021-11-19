@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<img src="<?php header_image(); ?>" heigth="<?php echo get_custom_header()->heigth; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+
 <div class="content-area">
     <main>
         <section class="slide">

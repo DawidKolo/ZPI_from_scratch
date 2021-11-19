@@ -21,8 +21,9 @@ function dkwp_config(){
 
 
 $args = array(
-    'heigth' => 225,
-    'width' => 1920
+    
+    'width' => 1920,
+    'heigth' => 230
 );
 add_theme_support('custom-header', $args);
 }
