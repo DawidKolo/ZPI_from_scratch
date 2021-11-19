@@ -44,5 +44,17 @@ function dkwp_sidebars(){
         )
     );
 
+    register_sidebar(
+        array(
+            'name' => 'Blog Sidebar',
+            'id' => 'sidebar-12',
+            'description' => 'This is the Blog Sidebar to place widgets here.',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h2 class="widget-title">',
+            'after_title' => '</h2>'
+        )
+    );
+
 }
 
