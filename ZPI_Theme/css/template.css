@@ -1,16 +1,48 @@
+a,
+a:visited { color:#1e5306; transition: background-color 0.2s ease 0s, color 0.2s ease 0s; }
+a:focus { outline: thin dotted;	background:#1e5306;	color:#fff;	text-decoration:none; }
+a:hover:active { outline:none; }
+
+a.more-link,
+a.more-link:visited { display: inline-block; font-size:0.929em; background: #fff; color:#fff; text-decoration: none; text-transform: uppercase; padding:8px 30px 9px 40px; float:right; }
+a.more-link:hover, 
+a.more-link:focus { color:#fff; background-position: 0 -63px; }
+a.more-link:focus { outline: 2px solid #222;}
+a.more-link:hover:active {outline: none}
+
+
+
+
 .social-media-icons{
-    background: green;
-    height: 30px;
+    color: white;
+	font-weight: bold;
+    background: red;
+    height: 50px;
 }
+#font-wrapper { width:160px; position:absolute; left:10px; }
+#fonts ul {margin: 0; padding:0; list-style:none;}
+#fonts ul li { float:left; margin:0 15px 0 0; }
+#fonts ul li a, 
+#fonts ul li a:visited, 
+#fonts ul li a:active { display: block; padding:0 2px; }
+#fonts ul li a:focus, 
+#fonts ul li a:hover {background-color: #fff; outline:2px solid #1e65a7; }
+#fonts ul li:last-child { padding-left:15px; margin:0; background: url("images/icoSepFonts.png") no-repeat left 5px;}
 
 .search{
-    background: yellow;
-    height: 30px;
+    color: white;
+	font-weight: bold;
+    background: red;
+    height: 50px;
 }
 
 /* Menus */
-.main-menu ul li, .footer-menu ul li{ 
-    display: inline-block; 
+
+.main-menu ul li, .footer-menu ul li {
+    
+    display: inline-block;
+    
+
 }
 /* Thumbnails */
 .wp-post-image{
@@ -25,3 +57,12 @@
 .blog h2{
     color: red;
 }
+.sidebar{
+    background: #222;
+}
+.copyright, .footer-menu{
+    color: white;
+    background: red;
+}
+
+#systemMode {width: 1px; height: 1px; background: url("images/transparent.png"); position: absolute; left: -9000em; }

@@ -7,14 +7,29 @@
             </div>
         </section>
         <section class="services">
-            <div class="container">
-                <div class="row">services</div>
+            <div class="container"><h1>Our services</h1>
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="services-item">
+
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="services-item">
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                    <div class="services-item">
+                        
+                        </div>
+                    </div>
+            </div>
             </div>
         </section>
         <section class="middle-area">
             <div class="container">
                 <div class="row">
-                    <aside class="sidebar col-md-3"><?php get_sidebar('home'); ?></aside>
+                    <aside class="sidebar col-md-3" h-100><?php get_sidebar('home'); ?></aside>
                     <div class="news col-md-9">news
                         <p>test</p>
                     </div>

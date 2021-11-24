@@ -3,20 +3,12 @@
 
 <div class="content-area">
     <main>
-        <section class="slide">
-            <div class="container">
-                <div class="row">Slide</div>
-            </div>
-        </section>
-        <section class="services">
-            <div class="container">
-                <div class="row">services</div>
-            </div>
+        
         </section>
         <section class="middle-area">
             <div class="container">
                 <div class="row">
-                    <aside class="sidebar col-md-3"><?php get_sidebar('blog'); ?></aside>
+                    
                     <div class="news col-md-9">
                         <?php 
                             if ( have_posts() ) :
@@ -37,15 +29,12 @@
 
                         <?php endif; ?>
                     </div>
+                    <aside class="sidebar col-md-3" h-100><?php get_sidebar('blog'); ?></aside>
                 </div>
             </div>
 
         </section>
-        <section class="map">
-            <div class="container">
-                <div class="row">Map</div>
-            </div>
-        </section>
+        
     </main>
 </div>
 <?php get_footer(); ?>

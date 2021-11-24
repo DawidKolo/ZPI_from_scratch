@@ -30,6 +30,8 @@ add_theme_support('post-thumbnails');
 add_theme_support('post-formats', array('video', 'image'));
 }
 add_action( 'after_setup_theme', 'dkwp_config', 0 );
+
+// register sidebar
 add_action( 'widgets_init', 'dkwp_sidebars');
 function dkwp_sidebars(){
     register_sidebar(
@@ -57,4 +59,12 @@ function dkwp_sidebars(){
     );
 
 }
+function myStartSession() {
+    if(!session_id()) {
+        session_start();
+    }
+}
+add_action('init', 'myStartSession', 1);
+
+
 
