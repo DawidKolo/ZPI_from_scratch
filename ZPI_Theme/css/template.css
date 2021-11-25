@@ -40,11 +40,7 @@ a.more-link:hover:active {outline: none}
 
 .main-menu{
     background: #272727;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    
 }
 
 .main-menu a{
@@ -52,9 +48,7 @@ a.more-link:hover:active {outline: none}
   text-decoration: none;
   font-size: 1.2em;
   text-transform: uppercase;
-  font-weight: 500;
   display: inline-block;
-  width: 80px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -67,6 +61,37 @@ a.more-link:hover:active {outline: none}
   
 
 .main-menu ul li, .footer-menu ul li {
+    
+    display: inline-block;
+    
+
+}
+
+.footer-menu{
+    background: #272727;
+    
+}
+
+.footer-menu a{
+    color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-menu a:hover{
+    color: #fddb3a;
+}
+
+
+  
+
+.footer-menu ul li, .footer-menu ul li {
     
     display: inline-block;
     
@@ -88,9 +113,18 @@ a.more-link:hover:active {outline: none}
 .sidebar{
     background: #222;
 }
-.copyright, .footer-menu{
+.copyright{
     color: white;
     background: red;
 }
+.wp-block-calendar .wp-calendar-table {color: #f00;}
+.wp-block-calendar tbody {background:#1e5306; color: #fff !important;}
+.wp-block-calendar caption { text-transform:uppercase; color:white; padding:5px; font-size:0.9em;}
+
+.wp-block-calendar td { text-align:center; padding:5px 0; border-left:1px solid #f00; border-right:1px solid #e2e2e2;  }
+
+.wp-block-calendar td a { display:block; color:#fff; background:#1e65a7; padding:3px 0; width:100%; text-decoration:none;}
+.wp-block-calendar td a:focus { background:#0d365c; color:#fff; }
+.wp-block-calendar caption { text-transform:uppercase; color:red!important; padding:5px; font-size:1.2em; }
 
 #systemMode {width: 1px; height: 1px; background: url("images/transparent.png"); position: absolute; left: -9000em; }
