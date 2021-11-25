@@ -7,23 +7,8 @@
             </div>
         </section>
         <section class="services">
-            <div class="container"><h1>Our services</h1>
-                <div class="row">
-                    <div class="col-sm-4"></div>
-                    <div class="services-item">
-
-                    </div>
-                    <div class="col-sm-4">
-                    <div class="services-item">
-                        
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                    <div class="services-item">
-                        
-                        </div>
-                    </div>
-            </div>
+            <div class="container">
+                <div class="row">services</div>
             </div>
         </section>
         <section class="middle-area">

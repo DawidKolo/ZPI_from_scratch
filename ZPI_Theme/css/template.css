@@ -38,6 +38,34 @@ a.more-link:hover:active {outline: none}
 
 /* Menus */
 
+.main-menu{
+    background: #272727;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-menu a{
+    color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.main-menu a:hover{
+    color: #fddb3a;
+}
+
+
+  
+
 .main-menu ul li, .footer-menu ul li {
     
     display: inline-block;
