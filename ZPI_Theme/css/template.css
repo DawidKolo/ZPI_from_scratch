@@ -10,7 +10,10 @@ a.more-link:focus { color:#fff; background-position: 0 -63px; }
 a.more-link:focus { outline: 2px solid #222;}
 a.more-link:hover:active {outline: none}
 
-
+.logo{
+    width: 248px;
+    height: 107px;
+}
 
 
 .social-media-icons{
@@ -63,14 +66,17 @@ a.more-link:hover:active {outline: none}
 .main-menu ul li, .footer-menu ul li {
     
     display: inline-block;
+	list-style: none;
     
 
 }
 
 .footer-menu{
     background: #272727;
+	
     
 }
+
 
 .footer-menu a{
     color: #f6f4e6;
@@ -83,20 +89,31 @@ a.more-link:hover:active {outline: none}
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
-.footer-menu a:hover{
-    color: #fddb3a;
-}
-
-
-  
-
 .footer-menu ul li, .footer-menu ul li {
     
     display: inline-block;
     
 
 }
+
+.footer-menu a:hover{
+    color: #fddb3a;
+}
+
+
+#FooterLogo { width:100%; height:110px; }
+#FooterLogo .DKLogo { list-style:none;  margin:0 auto; }
+#FooterLogo ul { margin:0; padding:5px 0 0 0; list-style:none; width:460px;  float:left }
+#FooterLogo ul li { margin:0 10px 0 0; padding:0; display:inline-block; }
+#FooterLogo ul li a { display:inline-block; }
+#FooterLogo ul li a:focus { outline:2px solid #1e65a7; background:white;}
+#FooterLogo .DKLogo p { float:left;}
+
+
+
+  
+
+
 /* Thumbnails */
 .wp-post-image{
     float: left;
@@ -115,8 +132,11 @@ a.more-link:hover:active {outline: none}
 }
 .copyright{
     color: white;
-    background: red;
+    background: white;
+    
+
 }
+
 .wp-block-calendar .wp-calendar-table {color: #f00;}
 .wp-block-calendar tbody {background:#1e5306; color: #fff !important;}
 .wp-block-calendar caption { text-transform:uppercase; color:white; padding:5px; font-size:0.9em;}
