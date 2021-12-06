@@ -84,7 +84,7 @@
                 </div>
             </div>
                     </div>
-                    <div class="search col-xl-2 col-md-4 col-sm-4 col-6 text-right">search</div>
+                    <div class="search col-xl-2 col-md-4 col-sm-4 col-6 text-right"><?php get_search_form() ?></div>
                 </div>
             </div>
 

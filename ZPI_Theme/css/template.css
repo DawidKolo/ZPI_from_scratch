@@ -1,5 +1,5 @@
 a,
-a:visited { color:#1e5306; transition: background-color 0.2s ease 0s, color 0.2s ease 0s; }
+a:visited { color:red; transition: background-color 0.2s ease 0s, color 0.2s ease 0s; }
 a:focus { outline: thin dotted;	background:#1e5306;	color:#fff;	text-decoration:none; }
 a:hover:active { outline:none; }
 
@@ -29,15 +29,47 @@ a.more-link:hover:active {outline: none}
 #fonts ul li a:visited, 
 #fonts ul li a:active { display: block; padding:0 2px; }
 #fonts ul li a:focus, 
-#fonts ul li a:hover {background-color: #fff; outline:2px solid #1e65a7; }
+#fonts ul li a:hover {background-color: #fff; outline:2px solid #000; }
 #fonts ul li:last-child { padding-left:15px; margin:0; background: url("images/icoSepFonts.png") no-repeat left 5px;}
 
 .search{
     color: white;
 	font-weight: bold;
-    background: red;
+    background: #222;
     height: 50px;
+    
 }
+
+.search-form{ display: inline-block;}
+.search-form { background:#272727; width:200px; }
+.search-form label { float:left; }
+.search-form input[type="search"] { border:1px solid transparent; width:120px; margin:0px;}
+.search-form input[type="search"]:focus { outline:2px solid #1e65a7; }
+.search-form .search-submit { float:right; }
+.search-submit { box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    }
+    .search-submit:hover {
+        background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+        background-color:#ffab23;
+    }
+    .search-submit:active{
+        position:relative;
+        top:0px;
+    }
+
 
 /* Menus */
 
@@ -57,7 +89,7 @@ a.more-link:hover:active {outline: none}
 }
 
 .main-menu a:hover{
-    color: #fddb3a;
+    color: red;
 }
 
 
@@ -72,14 +104,12 @@ a.more-link:hover:active {outline: none}
 }
 
 .footer-menu{
-    background: #272727;
-	
-    
+    background: #272727;    
 }
 
 
 .footer-menu a{
-    color: #f6f4e6;
+  color: #f6f4e6;
   text-decoration: none;
   font-size: 1.2em;
   text-transform: uppercase;
@@ -106,7 +136,7 @@ a.more-link:hover:active {outline: none}
 #FooterLogo ul { margin:0; padding:5px 0 0 0; list-style:none; width:460px;  float:left }
 #FooterLogo ul li { margin:0 10px 0 0; padding:0; display:inline-block; }
 #FooterLogo ul li a { display:inline-block; }
-#FooterLogo ul li a:focus { outline:2px solid #1e65a7; background:white;}
+#FooterLogo ul li a:focus { outline:2px solid #000; background:white;}
 #FooterLogo .DKLogo p { float:left;}
 
 

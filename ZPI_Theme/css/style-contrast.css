@@ -18,7 +18,11 @@ ins { background: #555; }
 #fonts ul li a:focus, 
 #fonts ul li a:hover {background-color:#000; outline:2px solid #ff0; }
 
-.main-navigation a { color:#ff0; background:#000; padding:14px 10px 15px; margin:0 10px;}
+.main-menu a:hover{
+    color: yellow;
+}
+
+.main-navigation a { color:red; background:#000; padding:14px 10px 15px; margin:0 10px;}
 
 .main-navigation li.hover a,
 .main-navigation a:hover,
@@ -61,28 +65,24 @@ ins { background: #555; }
 .sidebar .widget_recent_comments ul li a:hover { background:#ff0; color:#000; }
 
 
-.search-toggle a:focus { outline:2px solid #ff0; }
-.search-form { background:#222; }
-.search-form input[type="search"] { outline:2px solid #ff0; background:#000; color:#ff0;}
-.search-form input[type="search"]:focus { outline:2px solid #fff; background:#000; color:#fff;}
-
-.entry-thumbnail a:hover,
-.entry-thumbnail a:focus { outline:2px solid#ff0; }
-
-.thumbnail-bg  { display:none; }
-.thumbnail-ico { display:none; }
-
-.page-numbers span,
-.page-numbers a,
-.page-numbers a:visited { background:#ff0; color:#000; border:2px solid #ff0; text-shadow:none;}
-.page-numbers a:focus,
-.page-numbers a:hover {  color:#ff0; background-color:#000; }
-.dots { background:#ff0 !important; }  
-.page-numbers span.current { color:#fff; background-color:#666; border:2px solid #666; }
-
-
-
 h2.entry-title,
 h2.page-title { color:#fff; }
 
+.search{
+    color: #000;
+	font-weight: bold;
+    background: #FFF;
+    height: 50px;
+}
+.search a:visited {
+    color:red; transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
+    
+}
 
+.search a:outline{
+    outline: thin dotted;	background:yellow;	color:#fff;	text-decoration:none;
+}
+
+.search a:hover:active { 
+    outline:none; 
+}
