@@ -47,7 +47,7 @@ ins { background: #555; }
 .sidebar ul li a:focus,
 .sidebar ul li.current_page_item a { color:#000; background:#ff0; }
 
-.sidebar ul ul a { color:#ff0 !important; background-color:#222 !important; }
+.sidebar ul ul a { color:#ff0 !important; background: color #272727!important; }
 .sidebar ul ul li a:hover,
 .sidebar ul ul li a:focus { background:#ff0 !important; color:#000 !important; }
 
@@ -76,7 +76,7 @@ h2.page-title { color:#fff; }
 .search{
     
 	
-    background-color: #222F;
+    background-color: #272727;
     height: 50px;
 }
 

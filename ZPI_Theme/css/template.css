@@ -36,7 +36,7 @@ a.more-link:hover:active {outline: none}
 .search{
     color: white;
 	font-weight: bold;
-    background-color: #222;
+    background-color: #272727;
     height: 50px;
     
 }
@@ -109,7 +109,7 @@ a.more-link:hover:active {outline: none}
 }
 
 .footer-menu{
-    background: #272727;    
+    background-color: #272727;    
 }
 
 
