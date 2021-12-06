@@ -63,7 +63,7 @@
         <section class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="social-media-icons col-xl-10 col-md-8 col-sm-8 col-6">
+                    <div class="social-media-icons col-xl-9 col-md-8 col-sm-8 col-6">
                     <div id="font-wrapper">
                 <div id="fonts">
                 <?php
@@ -84,7 +84,7 @@
                 </div>
             </div>
                     </div>
-                    <div class="search col-xl-2 col-md-4 col-sm-4 col-6 text-right"><?php get_search_form() ?></div>
+                    <div class="search col-xl-3 col-md-4 col-sm-4 col-6 text-right"><?php get_search_form() ?></div>
                 </div>
             </div>
 
@@ -93,7 +93,7 @@
             <div class="container">
                 <div class="align">
                     <div class="row">
-                        <section class="logo col-md-2 col-sm-12 col-12 text-center"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $_SESSION['contrast_dir']; ?>Mainlogo.png" alt="Logo"/></section>
+                        <section class="logo col-md-2 col-sm-12 col-12 text-center"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $_SESSION['contrast_dir']; ?>Mainlogo.png" alt="Logo skałada się z napisu WCAG 2.0 baj DK. Poniżej jest elipsa z iksem w środku."/></section>
                         <nav class="main-menu col-md-10 text-right">
 							
                             <?php wp_nav_menu( array( 'theme_location' => 'my_main_menu' )); ?>

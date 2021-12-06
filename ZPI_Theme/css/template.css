@@ -13,6 +13,7 @@ a.more-link:hover:active {outline: none}
 .logo{
     width: 248px;
     height: 107px;
+    background-color: white;
 }
 
 
@@ -35,7 +36,7 @@ a.more-link:hover:active {outline: none}
 .search{
     color: white;
 	font-weight: bold;
-    background: #222;
+    background-color: #222;
     height: 50px;
     
 }
@@ -44,7 +45,7 @@ a.more-link:hover:active {outline: none}
 .search-form { background:#272727; width:200px; }
 .search-form label { float:left; }
 .search-form input[type="search"] { border:1px solid transparent; width:120px; margin:0px;}
-.search-form input[type="search"]:focus { outline:2px solid #1e65a7; }
+.search-form input[type="search"]:focus { outline:0px solid #1e65a7; }
 .search-form .search-submit { float:right; }
 .search-submit { box-shadow: 0px 1px 0px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -68,6 +69,10 @@ a.more-link:hover:active {outline: none}
     .search-submit:active{
         position:relative;
         top:0px;
+    }
+    ::placeholder {
+        color: black;
+        opacity: 1;
     }
 
 

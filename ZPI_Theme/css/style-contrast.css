@@ -67,22 +67,50 @@ ins { background: #555; }
 
 h2.entry-title,
 h2.page-title { color:#fff; }
+.logo{
+    width: 248px;
+    height: 107px;
+    background-color: #272727;
+}
 
 .search{
-    color: #000;
-	font-weight: bold;
-    background: #FFF;
+    
+	
+    background-color: #222F;
     height: 50px;
 }
-.search a:visited {
-    color:red; transition: background-color 0.2s ease 0s, color 0.2s ease 0s;
-    
-}
 
-.search a:outline{
-    outline: thin dotted;	background:yellow;	color:#fff;	text-decoration:none;
-}
+.search-form{ display: inline-block;}
+.search-form { background:#272727; width:200px; }
+.search-form label { float:left; }
+.search-form input[type="search"] { border:1px solid transparent; width:120px; margin:0px;}
+.search-form input[type="search"]:focus { outline:0px solid #1e65a7; }
+.search-form .search-submit { float:right; }
+.search-submit { box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+    }
+    .search-submit:hover {
+        background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+    }
+    .search-submit:active{
+        position:relative;
+        top:0px;
+    }
 
-.search a:hover:active { 
-    outline:none; 
+::placeholder {
+    color: red;
+    opacity: 1;
 }
