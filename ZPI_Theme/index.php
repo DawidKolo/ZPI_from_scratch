@@ -22,6 +22,17 @@
 
 
                         endwhile; 
+                        ?>
+                        <div class="row">
+                            <div class="pages col-md-6 text-start">
+                                    <?php previous_posts_link("<< Newer posts"); ?>
+                            </div>
+                            <div class="pages col-md-8 text-end">
+                                    <?php next_posts_link("Older posts >>"); ?>
+                            </div>
+                        </div>
+
+                        <?php
 
                         else : ?>
 
