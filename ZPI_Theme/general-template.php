@@ -30,8 +30,7 @@
 
                     </article>
 
-                    <p>This page template is the same on all selected pages</p>
-
+                    
                     <?php endwhile; ?>
 
                     <?php else : ?>

@@ -4,15 +4,7 @@ input,
 select,
 textarea {	background: #222; color:#fff; }
 
-pre { background: #555; }
 
-code,
-kbd,
-tt,
-var { color:#0fd300; }
-
-mark,
-ins { background: #555; }
 
 
 #fonts ul li a:focus, 
